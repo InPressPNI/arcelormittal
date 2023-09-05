@@ -146,6 +146,10 @@ img{
 
 @media (max-width: 991px) { 
 
+    body{
+        overflow-y: auto;
+    }
+
     #camera{
         margin-left: 0;
     }
