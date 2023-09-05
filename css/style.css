@@ -107,7 +107,6 @@ img{
 .hotpoint{
     width: 16px;
     height: 16px;
-/*    background: rgba(241, 90, 34, 0.7);*/
     background: rgba(255, 255, 255, 1);
     margin-left: -8px;
     margin-top: -8px;
@@ -138,6 +137,21 @@ img{
 
 .btn-close{
     background-image: url(../images/close-icon.svg);
-/*    background-color: #ff3700;*/
-/*    border-radius: 50%;*/
 }
+
+
+/*Media querys*/
+
+/*// Large devices (desktops, 761px and up)*/
+
+@media (max-width: 991px) { 
+
+    #camera{
+        margin-left: 0;
+    }
+
+    .img-container{
+        margin-top: -5%;
+    }
+
+} 
